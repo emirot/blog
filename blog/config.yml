@@ -126,6 +126,7 @@ params:
         Title: "PaperMod"
         Content: >
             Welcome to my personal blog.  
+
             - This blog will be about every technology related topic that will cross my mind.
     socialIcons:
         - name: github
