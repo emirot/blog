@@ -1,2 +1,2 @@
 # blog
-A blog in progress
+A blog in progress.
