@@ -13,7 +13,7 @@ TocOpen: false
 
 # Hugo Blogging
 
-I've tried different blog platform over the years: ghost, wordpress.
+I've tried different blog platforms over the years: ghost, wordpress.
 
 [Hugo](https://gohugo.io/) is very popular nowadays, so I wanted to try it out.
 
