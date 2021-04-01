@@ -15,7 +15,7 @@ TocOpen: false
 
 I've tried different blog platform over the years: ghost, wordpress.
 
-Hugo is very popular nowadays, so I wanted to try it out.
+[Hugo](https://gohugo.io/) is very popular nowadays, so I wanted to try it out.
 
 Moreover, I came accross that theme that looked cool: [https://themes.gohugo.io/hugo-papermod/](https://themes.gohugo.io/hugo-papermod/)
 
