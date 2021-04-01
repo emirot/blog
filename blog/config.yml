@@ -125,9 +125,8 @@ params:
     homeInfoParams:
         Title: "PaperMod"
         Content: >
-            Welcome to my personal blog.
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+            Welcome to my personal blog.  
+            - This blog will be about every technology related topic that will cross my mind.
     socialIcons:
         - name: github
           url: "https://github.com/emirot"
