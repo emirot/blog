@@ -12,7 +12,7 @@ TocOpen: true
 
 
 
-# Test
+# Hugo Blogging
 
 ## Subtitle 
 
