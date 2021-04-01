@@ -42,7 +42,7 @@ frontend:
         - mv hugo /usr/bin/hugo
         - rm -rf $HUGOINSTALL
         - cd blog
-        - git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
+        - git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1 --branch v5.0
         - git submodule update --init --recursive
         - ls -la
         - hugo version
