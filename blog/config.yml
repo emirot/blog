@@ -150,7 +150,7 @@ params:
             SiteVerificationTag: "_7aNv5JV_92NEqs7vji664GX9FySuH3E7BIL1lUkFGc"
 
     assets:
-        favicon: "favicon.ico"
+        favicon: "/favicon.ico"
         favicon16x16:  "/favicon-16x16.png"
         favicon32x32:  "/favicon-32x32.png"
         # apple_touch_icon: "<link / abs url>"
