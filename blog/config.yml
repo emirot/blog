@@ -111,7 +111,7 @@ params:
 
     profileMode:
         enabled: false
-        title: PaperMod
+        title: Blog
         imageUrl: "#"
         imageTitle: my image
         # imageWidth: 120
