@@ -24,7 +24,7 @@ Moreover, I came accross that theme that looked cool: [https://themes.gohugo.io/
 I also wanted to try out AWS Amplify.
 I'm becoming very familiar with gitlab and `gitlab-ci.yml` and wanted to discover what AWS had to offer.
 
-After playing a bit with it it's quicker than I thought.
+After playing a bit with it, it was quicker than I thought.
 
 ```
 version: 1.0
