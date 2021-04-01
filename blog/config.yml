@@ -1,4 +1,4 @@
-baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
+baseURL: "/"
 title: Nolan's blog
 paginate: 5
 theme: PaperMod
