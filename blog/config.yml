@@ -133,6 +133,8 @@ params:
           url: "https://github.com/emirot"
         - name: gitlab
           url: "https://gitlab.com/emirot.nolan"
+        - name: hackerrank
+          url: "https://www.hackerrank.com/nolan34"
         - name: KoFi
           url: "https://ko-fi.com/nolanemirot"
         - name: RsS
