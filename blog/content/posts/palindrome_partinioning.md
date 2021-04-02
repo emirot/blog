@@ -31,7 +31,7 @@ Output: [["a","bb"],["a", "b", "b"]]
 # Solution
 
 1. Get all subset of the string.
-2. Check if a subset is composed of only palindrome 
+2. Check if this subset is only composed of palindromes
 3. If so add it to the result
 
 ```python
@@ -87,4 +87,4 @@ class Solution:
 
 | Time complexity | Space Complexity |
 |-----------------|----------------- |
-| O(n^2)          | O(n)             |
+| O(2^n)          | O(n)             |
