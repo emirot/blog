@@ -129,6 +129,8 @@ params:
 
             - This blog will be about every technology related topic that will cross my mind
     socialIcons:
+        - name: stackoverflow
+          url: "https://stackoverflow.com/users/2201037/nono"
         - name: github
           url: "https://github.com/emirot"
         - name: gitlab
