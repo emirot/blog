@@ -1,7 +1,7 @@
 ---
 author: "Nolan"
 title: "Minesweeper"
-date: "2021-04-01"
+date: "2021-04-03"
 categories: ["alogorithm", "python"]
 draft: false
 description: "Minesweeper Algo"
