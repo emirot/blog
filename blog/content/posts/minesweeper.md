@@ -19,7 +19,7 @@ It's a very BFS like challenge, down below the code.
 
 # Solution
 
-```
+```python
 class Solution:
     def is_valid_coord(self, board, row, col):
         if row >= 0 and row < len(board) and col >= 0 and col < len(board[0]):
