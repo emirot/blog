@@ -8,6 +8,7 @@ description: "First blog post on my new blog!"
 tags: ["hugo", "blog"]
 ShowToc: false
 TocOpen: false
+weight: 1
 ---
 
 
