@@ -4,13 +4,13 @@ title: "Minesweeper"
 date: "2021-04-03"
 categories: ["alogorithm", "python"]
 draft: false
-description: "Minesweeper Algo"
+description: "Another leetcode"
 tags: ["algo", "bfs"]
 ShowToc: false
 TocOpen: false
 ---
 
-# Minesweeper
+# Challenge
 
 I came across this [challenge on leetcode](https://leetcode.com/problems/minesweeper/) that the goal is to generate a new board after a row, column is selected.
 Here is an [online](https://minesweeperonline.com/) version of the game.
@@ -58,6 +58,6 @@ class Solution:
             
         
 ```
-http://borkenlinkldsad.das
+
 Time Complexity: O(m*n)
 Space Complexity: O(m+n)
