@@ -2,15 +2,13 @@ name: Go
 on: [push, pull_request]
 jobs:
   build:
-    name: Test 
+    name: Check for broken links
     strategy:
       matrix:
         go: [1.15]
     runs-on: ubuntu-latest
     container: golang:${{ matrix.go }}-buster
     steps:
-    - run: go get golang.org/x/tools/cmd/goimports
-    - run: go get golang.org/x/lint/golint
     - uses: actions/checkout@v2
     - run: |
          GO111MODULE=on go get -u github.com/raviqqe/muffet/v2
