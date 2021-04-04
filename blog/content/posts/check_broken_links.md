@@ -4,7 +4,7 @@ title: "Check broken links in Markdown"
 date: "2021-03-03T20:35:29-07:00"
 categories: ["blog", "hugo", "markdown"]
 draft: false
-description: "First blog post on my new blog!"
+description: "Broken link checker"
 tags: ["hugo", "blog", "links", "markdown"]
 ShowToc: false
 TocOpen: false
