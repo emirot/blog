@@ -5,7 +5,7 @@ jobs:
     name: Test 
     strategy:
       matrix:
-        go: [1.14, 1.15]
+        go: [1.15]
     runs-on: ubuntu-latest
     container: golang:${{ matrix.go }}-buster
     steps:
@@ -14,4 +14,4 @@ jobs:
     - uses: actions/checkout@v2
     - run: |
          GO111MODULE=on go get -u github.com/raviqqe/muffet/v2
-         muffet -v https://blog.nolanemirot.com --exclude="(safari-pinned-tab|twitter|ko-fi)" --buffer-size 9000
+         muffet -v https://blog.nolanemirot.com --exclude="(safari-pinned-tab|twitter|ko-fi|linkedin)" --buffer-size 9000
