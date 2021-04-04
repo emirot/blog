@@ -14,13 +14,13 @@ TocOpen: false
 
 It's always frustrating to follow a dead link, so I would like to avoid that on my blog.
 
-I've found couple of projects that should help:
+I've found couple of projects that could help:
 - https://github.com/raviqqe/muffet
 - https://github.com/linkchecker/linkchecker
 - https://github.com/stevenvachon/broken-link-checker
 
 These projects looks to be a good fit, however I would have adapt the CI part.
-If not I would be checking my current online version and not the latest changes, one idea could be to spin up a local version and test again that one. Or I could do deploy on Pull Request for example.
+If not I would be checking my current online version and not the latest changes, one idea could be to spin up a local web server and test again it. Or I could do deploys on Pull Requests for example.
 
 
 # Solution
@@ -40,5 +40,5 @@ jobs:
     - uses: gaurav-nelson/github-action-markdown-link-check@v1
 ```
 
-Tada! I now have a broken link checker, well does it work.
+Tada! I now have a broken link checker, well does it work?  
 I've added a broken link in a .md file and the job failed looks good so far :)
