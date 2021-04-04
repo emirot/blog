@@ -3,11 +3,8 @@ on: [push, pull_request]
 jobs:
   build:
     name: Check for broken links
-    strategy:
-      matrix:
-        go: [1.15]
     runs-on: ubuntu-latest
-    container: golang:${{ matrix.go }}-buster
+    container: golang:1.15-buster
     steps:
     - uses: actions/checkout@v2
     - run: |
