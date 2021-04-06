@@ -15,11 +15,9 @@ TocOpen: false
 I've been casually looking into the go language without trying it much.
 Now it's time to write so go code :)
 
-
 # Golang
 
-
-## Looping
+### Looping
 
 First discovery there is no `while` keyword in golang, I was pretty surprised I thought I was missing something.  
 I then look in the [spec](https://golang.org/ref/spec) and there is only `for`.  
@@ -32,7 +30,7 @@ for i < 10 {
 }
 ```
 
-## Return statements
+### Return statements
 
 Return statement can be specified in function definition  
 E.g
