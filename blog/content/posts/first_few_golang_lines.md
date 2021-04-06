@@ -79,4 +79,4 @@ I prefer the short assigment variable declaration:
 	fmt.Println(c, python, java)
 ```
 
-Well that's it for today, more to come very soon.
+That's it for today, more to come very soon.
