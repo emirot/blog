@@ -1,4 +1,4 @@
-# blog
+# My blog
 
 A blog in progress...
 
