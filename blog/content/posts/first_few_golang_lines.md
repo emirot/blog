@@ -1,7 +1,7 @@
 ---
 author: "Nolan"
 title: "First few lines in golang"
-date: "2021-03-05"
+date: "2021-04-05"
 categories: ["golang", "learning"]
 draft: false
 description: "First few lines"
