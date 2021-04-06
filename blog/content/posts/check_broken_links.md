@@ -1,7 +1,7 @@
 ---
 author: "Nolan"
 title: "Check broken links in Markdown"
-date: "2021-03-03T20:35:29-07:00"
+date: "2021-03-03"
 categories: ["blog", "hugo", "markdown"]
 draft: false
 description: "Broken link checker"

@@ -1,7 +1,7 @@
 ---
 author: "Nolan"
 title: "First few lines in golang"
-date: "2021-03-05T20:35:29-07:00"
+date: "2021-03-05"
 categories: ["golang", "learning"]
 draft: false
 description: "First few lines"
@@ -33,7 +33,7 @@ for i < 10 {
 ### Return statements
 
 Return statement can be specified in function definition  
-E.g
+E.g:
 
 ```golang
 func returnByDefault(s string) (first string, second string) {
