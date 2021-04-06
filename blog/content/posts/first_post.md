@@ -20,6 +20,8 @@ I've tried different blog platforms over the years: ghost, wordpress.
 
 Moreover, I came accross that theme that looked cool: [https://themes.gohugo.io/hugo-papermod/](https://themes.gohugo.io/hugo-papermod/)
 
+I don't have a specififc goal in mind for that blog, it's a just a cool way for me to look back and see what I've been doing.
+
 # AWS Amplify
 
 I also wanted to try out AWS Amplify.
