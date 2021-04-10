@@ -10,7 +10,7 @@ ShowToc: false
 TocOpen: false
 ---
 
-## First import Function form package in golang
+## Import Function form package
 
 I thought it was going to be similiar to many languages and I will just have to just do something like:
 
