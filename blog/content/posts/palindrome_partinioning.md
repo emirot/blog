@@ -10,7 +10,7 @@ ShowToc: false
 TocOpen: false
 ---
 
-# Challenge
+## Challenge
 
 Given a String `S` return all palindrome partitions.
 
@@ -28,7 +28,7 @@ Input: s = "abb"
 Output: [["a","bb"],["a", "b", "b"]]
 ```
 
-# Solution
+## Solution
 
 1. Get all subset of the string.
 2. Check if this subset is only composed of palindromes
