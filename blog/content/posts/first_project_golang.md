@@ -1,0 +1,44 @@
+---
+author: "Nolan"
+title: "First golang project"
+date: "2021-04-09"
+categories: ["golang", "learning"]
+draft: false
+description: "First few lines"
+tags: ["golang", "learning", "import"]
+ShowToc: false
+TocOpen: false
+---
+
+## First import Function form package in golang
+
+I thought it was going to be similiar to many languages and I will just have to just do something like:
+
+```golang
+import "mypakckage/Myfuction"
+```
+Well... no, first it will depend on your GOPATH, which is handled differently depending of your go version.
+Secondly, In golang exported function must be in Uppercase, otherwise it won't compile!
+
+## First import web project
+
+So I chose the easiest that I could find first.  
+
+Create a go module:  
+
+```bash
+go mod init github.com/emirot/go-guitar
+```
+
+It will create a `go.mod` file like so:  
+```golang
+module github.com/emirot/go-guitar
+
+go 1.16
+```
+
+And then I could finally do  
+
+```golang
+import "github.com/emirot/go-guitar/api/guitar"
+```
