@@ -12,7 +12,7 @@ weight: 1
 ---
 
 
-# Hugo Blogging
+## Hugo Blogging
 
 I've tried different blog platforms over the years: ghost, wordpress.
 
@@ -22,14 +22,14 @@ Moreover, I came accross that theme that looked cool: [https://themes.gohugo.io/
 
 I don't have a specififc goal in mind for that blog, it's a just a cool way for me to look back and see what I've been doing.
 
-# AWS Amplify
+## AWS Amplify
 
 I also wanted to try out AWS Amplify.
 I'm becoming very familiar with gitlab and `gitlab-ci.yml` and wanted to discover what AWS had to offer.
 
 After playing a bit with it, it was quicker than I thought.
 
-```
+```yaml
 version: 1.0
 env:
   variables:
