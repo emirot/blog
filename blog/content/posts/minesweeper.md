@@ -10,14 +10,14 @@ ShowToc: false
 TocOpen: false
 ---
 
-# Challenge
+## Challenge
 
 I came across this [challenge on leetcode](https://leetcode.com/problems/minesweeper/) that the goal is to generate a new board after a row, column is selected.
 Here is an [online](https://minesweeperonline.com/) version of the game.
 It's a very BFS like challenge, down below the code.
 
 
-# Solution
+## Solution
 
 ```python
 class Solution:
