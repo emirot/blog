@@ -20,9 +20,9 @@ import "mypakckage/Myfuction"
 Well... no, first it will depend on your GOPATH, which is handled differently depending of your go version.
 Secondly, In golang exported function must be in Uppercase, otherwise it won't compile!
 
-## First import web project
+## First module
 
-So I chose the easiest that I could find first.  
+So I chose the easiest that I could find first to structure project by creating a module.  
 
 Create a go module:  
 
