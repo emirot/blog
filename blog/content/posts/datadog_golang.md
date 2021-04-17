@@ -61,7 +61,8 @@ Ok removing that `WithServiceName` and now I can see it in datadog console.
 
 ## Contrib
 
-Great! I finally see my app in the datadog console, but where are my endpoints? Can't see them.
+Great! I finally see my app in the datadog console, but where are my endpoints?  
+Can't see them...  
 The reason is that a middleware needs to be added if you are using net/http for example:
 
 
