@@ -10,7 +10,7 @@ ShowToc: false
 TocOpen: false
 ---
 
-# Broken links
+## Broken links
 
 It's always frustrating to follow a dead link, so I would like to avoid that on my blog.
 
@@ -23,7 +23,7 @@ These projects looks to be a good fit, however I would have adapt the CI part.
 If not I would be checking my current online version and not the latest changes, one idea could be to spin up a local web server and test again it. Or I could do deploys on Pull Requests for example.
 
 
-# Solution
+## Solution
 
 There is a simpler way: https://github.com/gaurav-nelson/github-action-markdown-link-check
 The posts are written in markdown so it will check all the posts, so it's not checking everything but the most important!  
