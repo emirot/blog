@@ -71,7 +71,6 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"os"
 
 	httptrace "gopkg.in/DataDog/dd-trace-go.v1/contrib/net/http"
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
