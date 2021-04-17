@@ -149,7 +149,7 @@ params:
 
     analytics:
         google:
-            SiteVerificationTag: ""
+            SiteVerificationTag: "_7aNv5JV_92NEqs7vji664GX9FySuH3E7BIL1lUkFGc"
 
     assets:
         favicon: "/favicon.ico"
