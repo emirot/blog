@@ -29,7 +29,7 @@ And it worked, let's look into it for golang.
 
 ## Istio proxy start time
 
-This issue is very well explained here: https://www.openshift.com/blog/how-to-make-istio-work-with-your-apps
+This issue is very well explained here: https://www.openshift.com/blog/how-to-make-istio-work-with-your-apps  
 It can be sum up to: ` The application container in a pod tries to make initial network connections at start time, but it fails to reach the network.`
 
 In the log it will show: 
@@ -37,7 +37,7 @@ In the log it will show:
 Datadog Tracer v1.27.0 WARN: DIAGNOSTICS Unable to reach agent: Post \"http://10.42.147.44:8126/v0.4/traces\": dial tcp 10.42.147.44:8126: connect: connection refused
 ```
 
-You would assume that it's only at startup time and Datadog will retry, well the answer is **NO**.
+You would assume that it's only at startup time and Datadog will retry, well the answer is **NO**.  
 Well there is many way to fix this issue as explained in the openshift post.
 
 ## Deprecated usage
@@ -60,7 +60,7 @@ Ok removing that `WithServiceName` and now I can see it in datadog console.
 
 ## Contrib
 
-Great I see my app in the datadog console, but where are my endpoints? Can't see them.
+Great! I finally see my app in the datadog console, but where are my endpoints? Can't see them.
 The reason is that a middleware needs to be added if you are using net/http for example:
 
 
