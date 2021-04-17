@@ -30,7 +30,8 @@ And it worked, let's look into it for golang.
 ## Istio proxy start time
 
 This issue is very well explained here: https://www.openshift.com/blog/how-to-make-istio-work-with-your-apps  
-It can be sum up to: ` The application container in a pod tries to make initial network connections at start time, but it fails to reach the network.`
+It can be sum up to:  
+` The application container in a pod tries to make initial network connections at start time, but it fails to reach the network.`
 
 In the log it will show: 
 ```
