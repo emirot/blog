@@ -39,7 +39,7 @@ Datadog Tracer v1.27.0 WARN: DIAGNOSTICS Unable to reach agent: Post \"http://10
 ```
 
 You would assume that it's only at startup time and Datadog will retry, well the answer is **NO**.  
-Well there is many way to fix this issue as explained in the openshift post.
+Thankfully, there are many ways to fix this issue as explained in the openshift post.
 
 ## Deprecated usage
 
