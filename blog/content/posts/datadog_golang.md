@@ -50,7 +50,7 @@ tracer.Start(
 		)
 ```
 
-You won't see it in datadog console ... 
+You won't see it in datadog console ...  
 
 After looking in the log you will get this nice error:
 ```text
