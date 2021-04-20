@@ -12,11 +12,11 @@ TocOpen: false
 
 ## Getting dependencies via GOPROXY
 
-So I recently wanted to use a private registry in a go project.  
+I recently wanted to use a private registry in a go project.  
 
 It can be for many reasons:
 - ensure immutability from one built to another
-- ensure avaibility of a build (remember npm author who removed his library and breaking half internet?)
+- ensure avaibility of a build (remember npm author who removed his library and broke half the internet?)
 - get non-public library
 
 ## How it works
