@@ -1,1 +1,13 @@
 
+name: Go
+on: [push, pull_request]
+jobs:
+  build:
+    name: Check for misspell
+    runs-on: ubuntu-latest
+    container: golang:1.15-buster
+    steps:
+    - uses: actions/checkout@v2
+    - run: |
+         GO111MODULE=on go get -u github.com/client9/misspell/cmd/misspell
+         misspell -error misspell blog/content/posts/*.md  
