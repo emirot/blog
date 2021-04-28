@@ -12,7 +12,7 @@ TocOpen: false
 
 ## Import Function form package
 
-I thought it was going to be similiar to many languages and I will just have to just do something like:
+I thought it was going to be similar to many languages and I will just have to just do something like:
 
 ```golang
 import "mypakckage/Myfuction"
