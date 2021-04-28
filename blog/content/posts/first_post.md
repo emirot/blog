@@ -18,7 +18,7 @@ I've tried different blog platforms over the years: ghost, wordpress.
 
 [Hugo](https://gohugo.io/) is very popular nowadays, so I wanted to try it out.
 
-Moreover, I came accross that theme that looked cool: [https://themes.gohugo.io/hugo-papermod/](https://themes.gohugo.io/hugo-papermod/)
+Moreover, I came across that theme that looked cool: [https://themes.gohugo.io/hugo-papermod/](https://themes.gohugo.io/hugo-papermod/)
 
 I don't have a specififc goal in mind for that blog, it's a just a cool way for me to look back and see what I've been doing.
 
