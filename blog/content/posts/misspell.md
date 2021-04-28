@@ -36,11 +36,7 @@ jobs:
 ```
 
 It worked!
-```bash
-go: downloading github.com/client9/misspell v0.3.4
-go: found github.com/client9/misspell/cmd/misspell in github.com/client9/misspell v0.3.4
-blog/content/posts/first_post.md:21:17: "accross" is a misspelling of "across"
-blog/content/posts/first_project_golang.md:15:29: "similiar" is a misspelling of "similar"
-```
+
+![Misspell](misspell.jpg)
 
 Only gotcha don't forget the `-error` flag so it returns an error code that let you know something is wrong.
