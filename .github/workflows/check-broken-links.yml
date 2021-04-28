@@ -9,4 +9,4 @@ jobs:
     - uses: actions/checkout@v2
     - run: |
          GO111MODULE=on go get -u github.com/raviqqe/muffet/v2
-         muffet -v https://blog.nolanemirot.com --exclude="(safari-pinned-tab|twitter|ko-fi|linkedin|^/misspell.png)" --buffer-size 9000
+         muffet -v https://blog.nolanemirot.com --exclude="(safari-pinned-tab|twitter|ko-fi|linkedin)" --buffer-size 9000
