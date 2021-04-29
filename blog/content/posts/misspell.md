@@ -37,6 +37,6 @@ jobs:
 
 It worked!
 
-![Misspell](/misspell.png)
+![Misspell](https://blog.nolanemirot.com/misspell.png)
 
 Only gotcha don't forget the `-error` flag so it returns an error code that let you know something is wrong.
