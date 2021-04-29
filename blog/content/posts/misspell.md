@@ -31,7 +31,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: |
-         GO111MODULE=on go get -u github.com/client9/misspell/cmd/misspell
+         GO111MODULE=on go get -u github.com/client9/misspell/cmd/misspell@v0.3.4
          misspell -error misspell blog/content/posts/*.md
 ```
 
