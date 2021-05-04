@@ -2,7 +2,7 @@
 author: "Nolan"
 title: "Minesweeper"
 date: "2021-04-03"
-categories: ["alogorithm", "python"]
+categories: ["algorithm", "python"]
 draft: false
 description: "Another leetcode"
 tags: ["algo", "bfs"]

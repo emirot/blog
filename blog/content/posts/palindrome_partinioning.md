@@ -2,7 +2,7 @@
 author: "Nolan"
 title: "Palindrome Partitioning"
 date: "2021-04-01"
-categories: ["alogorithm", "python"]
+categories: ["algorithm", "python"]
 draft: false
 description: "Backtracking Algo"
 tags: ["algo", "backtracking"]
