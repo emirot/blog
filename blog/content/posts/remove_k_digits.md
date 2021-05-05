@@ -12,7 +12,7 @@ TocOpen: false
 
 ## Challenge
 
-Given a non-negative number represented as a string, return the smaller possible integer after removing K digits.
+Given a non-negative number represented as a string, return the smaller possible integer after removing K digits.  
 E.g
 ```
 "1041"
@@ -22,7 +22,7 @@ Will output `41`
 
 ## Solution 1
 
-I really liked my first solution, however performances can't be worst.
+I really liked my first solution, however performances can't be worst.  
 It's a brute force approach doing backtracking, basically I tried to remove 3 digits in every possible position.
 
 ```python
