@@ -62,7 +62,7 @@ class Solution:
 
 ## Solution 2
 
-After failing on a lot of different test cases it looks like this greedy implement below works.  
+After failing on a lot of different test cases it looks like this greedy implementation below works.  
 
 I still had to handle some edge cases e.g `1112`, 2 must be remove but in `1041` 1 needs to be removed.
 
@@ -106,5 +106,5 @@ class Solution:
         return res
 ```
 
-Time complexity: n*n
+Time complexity: n*n  
 Space complexity: n
