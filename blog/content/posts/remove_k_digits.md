@@ -12,9 +12,18 @@ TocOpen: false
 
 ## Challenge
 
+Given a non-negative number represented as a string, return the smaller possible integer after removing K digits.
+E.g
+```
+"1041"
+1
+```
+Will output `41`
 
 ## Solution 1
-I really liked my first solution
+
+I really liked my first solution, however performances can't be worst.
+It's a brute force approach doing backtracking, basically I tried to remove 3 digits in every possible position.
 
 ```python
 from copy import deepcopy
@@ -53,18 +62,16 @@ class Solution:
 
 ## Solution 2
 
+After failing on a lot of different test cases it looks like this greedy implement below works.  
+
+I still had to handle some edge cases e.g `1112`, 2 must be remove but in `1041` 1 needs to be removed.
+
 ```python
 class Solution:
 
-    def is_there_smaller_after(self, current_pos, num):
-        for e in num[current_pos+1:]:
-            if e < num[current_pos]:
-                return True
-        return False
-
     def remove_zero_in_front(self, string):
         i = 0
-        while i < len(string) and string[i]=="0":
+        while i < len(string) and string[i] == "0":
             i += 1
         return string[i:]
 
@@ -98,3 +105,6 @@ class Solution:
             return "0"
         return res
 ```
+
+Time complexity: n*n
+Space complexity: n
