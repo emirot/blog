@@ -3,7 +3,7 @@ author: "Nolan"
 title: "Remove K-digits"
 date: "2021-05-03"
 categories: ["algorithm", "greedy"]
-draft: true
+draft: false
 description: "Another programing challenge"
 tags: ["pyhon", "algorithm"]
 ShowToc: false
