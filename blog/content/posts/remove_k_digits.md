@@ -64,7 +64,7 @@ class Solution:
 
 After failing on a lot of different test cases it looks like this greedy implementation below works.  
 
-I still had to handle some edge cases e.g `1112`, 2 must be remove but in `1041` 1 needs to be removed.
+I still had to handle some edge cases e.g `1112`, 2 must be remove but in `1041` first 1 needs to be removed.
 
 ```python
 class Solution:
