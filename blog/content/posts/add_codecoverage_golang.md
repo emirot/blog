@@ -36,7 +36,7 @@ test:
     stage: coveragetest
     image: golang
     script:
-        - go get golang.org/x/tools/cmd/cover
+        - go get golang.org/x/tools/cmd/cover@0.1.0
         - go get github.com/t-yuki/gocover-cobertura
         - go test  ./... -v -coverprofile coverage.txt
         - gocover-cobertura < coverage.txt > coverage.xml
