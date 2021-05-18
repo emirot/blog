@@ -22,14 +22,17 @@ It can be for many reasons:
 ## How it works
 ### Quick & Easy
 It is super easy you just have to add an env variable:
+
 ```bash
-export GOPROXY=export GOPROXY="https://:@myprivateserver.com/registry/api/go/go
+export GOPROXY=export GOPROXY="myprivateserver.com/registry/api/go/go
 ```
 
 You can then do a:
-```
+
+```bash
 go env
 ```
+
 To see if it was applied.
 
 ### Does it really work?
