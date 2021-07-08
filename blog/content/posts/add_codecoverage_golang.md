@@ -53,6 +53,6 @@ Then in order to get the coverage badge it can be added in the readme or in the 
 
 Or in the readme, for my repo like so:
 
-```
+```yaml
 [![coverage report](https://gitlab.com/emirot.nolan/go-test-coverage/badges/master/coverage.svg)](https://gitlab.com/emirot.nolan/go-test-coverage/-/commits/master)
 ```
