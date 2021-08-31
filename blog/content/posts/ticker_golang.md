@@ -13,7 +13,7 @@ TocOpen: false
 
 ## Tickers
 
-I was looking into timers and I came accross [tickers](https://golang.org/src/time/tick.go).  
+I was looking into timers and I came across [tickers](https://golang.org/src/time/tick.go).  
 Basically they allow you to trigger an event at a regular time interval.  
 One simple example could be some kind of monitoring.  
 
