@@ -53,3 +53,4 @@ func main() {
 	fmt.Println("Done as expected")
 }
 ```
+Not sure if it's a nice way to achieve that as I'm learning Golang, but I did what I wanted.
