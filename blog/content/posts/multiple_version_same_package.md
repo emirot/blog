@@ -54,7 +54,7 @@ func main() {
 
 ## Python
 
-It's impossible in Python for now see this [thread](https://discuss.python.org/t/allowing-multiple-versions-of-same-python-package-in-pythonpath/2219)
+
 
 
 #### Credits:
