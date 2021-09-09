@@ -59,5 +59,5 @@ It's impossible in Python for now see this [thread](https://discuss.python.org/t
 
 #### Credits:
 
-- https://golangbyexample.com/versiono-module-selection-go/
+- https://golangbyexample.com/versiono-module-selection-go
 - https://faun.pub/managing-dependency-and-module-versioning-using-go-modules-c7c6da00787a
