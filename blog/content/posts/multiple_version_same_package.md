@@ -54,10 +54,8 @@ func main() {
 
 ## Python
 
-
+It's impossible in Python for now see this [thread](https://discuss.python.org/t/allowing-multiple-versions-of-same-python-package-in-pythonpath/2219)
 
 
 #### Credits:
 
-- https://golangbyexample.com/versiono-module-selection-go
-- https://faun.pub/managing-dependency-and-module-versioning-using-go-modules-c7c6da00787a
