@@ -29,8 +29,8 @@ docker run  -d --name my_db \
 nolan@localhost:nolan> SELECT count(*) FROM towns where name like 'Mont%';
 ```
 
-+---------+
-| count   |
-|---------|
-| 826     |
-+---------+
+Result:
+
+| count     |
+| --------- |
+| 826       |
