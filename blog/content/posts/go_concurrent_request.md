@@ -3,7 +3,7 @@ author: "Nolan"
 title: "Limit number of concurrent requests"
 date: "2021-08-29"
 categories: ["golang", "learning"]
-draft: false
+draft: true
 description: "http request concurrency"
 tags: ["golang", "learning", "requests"]
 ShowToc: false
