@@ -25,6 +25,7 @@ docker run  -d --name my_db \
 ```bash
  pgcli -h localhost -p54320 -Unolan
 ```
+```
 nolan@localhost:nolan> SELECT count(*) FROM towns where name like 'Mont%';
 ```
 
