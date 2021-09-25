@@ -54,4 +54,4 @@ func main() {
 }
 ```
 
-Full code is there [gitlab](gitlab.com/emirot.nolan/golang_tempate)
+Full code is there [gitlab](https://gitlab.com/emirot.nolan/golang_tempate/)
