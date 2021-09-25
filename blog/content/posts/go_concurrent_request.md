@@ -13,5 +13,5 @@ TocOpen: false
 ## Limiting the number of concurrent http requests
 
 I was looking to use gorountine in the context of http requests.  
-More specificaly, how to limit the number of concurrent of http call made to a service.  
+More specifically, how to limit the number of concurrent of http call made to a service.  
 Let's say you are making call to an API that is rate limited.  
