@@ -26,11 +26,10 @@ docker run  -d --name my_db \
  pgcli -h localhost -p54320 -Unolan
 ```
 nolan@localhost:nolan> SELECT count(*) FROM towns where name like 'Mont%';
+```
+
 +---------+
 | count   |
 |---------|
 | 826     |
 +---------+
-SELECT 1
-Time: 0.014s
-```
