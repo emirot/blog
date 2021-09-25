@@ -15,7 +15,9 @@ TocOpen: false
 I will take this [free dataset](https://www.postgresql.org/ftp/projects/pgFoundry/dbsamples/french-towns-communes-francais/french-towns-communes-francaises-1.0/) from postgresql website.  
 
 ```bash
-docker run  -d --name my_db -v /Users/nolan/Downloads/french-towns-communes-francaises-1.0/french-towns-communes-francaises.sql:/docker-entrypoint-initdb.d/create_table.sql  -p 54320:5432 -e POSTGRES_PASSWORD=my_password  -e POSTGRES_USER=nolan postgres
+docker run  -d --name my_db \  
+    -v /Users/nolan/Downloads/french-towns-communes-francaises-1.0/french-towns-communes-francaises.sql:/docker-entrypoint-initdb.d/create_table.sql \  
+    -p 54320:5432 -e POSTGRES_PASSWORD=my_password  -e POSTGRES_USER=nolan postgres
 ```
 
 ## Connect to DB
