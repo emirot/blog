@@ -38,7 +38,7 @@ Run tests:
 
 ## Avoiding repeating tests
 
-Instead of duplicating code for simliar tests, there is a different way to test.  
+Instead of duplicating code for similar tests, there is a different way to test.  
 
 ```golang
 package main
