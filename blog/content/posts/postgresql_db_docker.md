@@ -1,6 +1,6 @@
 ---
 author: "Nolan"
-title: "Postgresql in Docker"
+title: "PostgreSQL in Docker"
 date: "2021-09-21"
 categories: ["docker", "posgresql"]
 draft: false
