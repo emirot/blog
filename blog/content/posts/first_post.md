@@ -33,8 +33,8 @@ After playing a bit with it, it was quicker than I thought.
 version: 1.0
 env:
   variables:
-    HUGOVERSION: v0.82.0
-    HUGOINSTALL: hugo_extended_0.82.0_Linux-64bit.tar.gz
+    HUGOVERSION: v0.92.0
+    HUGOINSTALL: hugo_extended_0.92.0_Linux-64bit.tar.gz
 frontend:
   phases:
     # IMPORTANT - Please verify your build commands
