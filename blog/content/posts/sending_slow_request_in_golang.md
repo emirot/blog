@@ -1,6 +1,6 @@
 ---
 author: "Nolan"
-title: "Tickers"
+title: "Sending a slow request"
 date: "2022-02-23"
 categories: ["golang", "learning"]
 draft: false
