@@ -42,5 +42,3 @@ And then I could finally do
 ```golang
 import "github.com/emirot/go-guitar/api/guitar"
 ```
-
-This test project can be found here: [https://github.com/emirot/go-guitar](https://github.com/emirot/go-guitar)
