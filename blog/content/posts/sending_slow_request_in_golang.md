@@ -13,7 +13,7 @@ TocOpen: false
 ## Sending Slow request in golang
 
 I thought it was a great way to highlight the control golang brings.  
-The http Post method takes an io.reader that could be overriden.  
+The http Post method takes an io.reader that could be overridden.  
 It could be used to test how your web application reacts in those situations, does it hangs? timeout?
 
 Http Post definition:
