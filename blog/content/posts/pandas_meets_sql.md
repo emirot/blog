@@ -10,7 +10,7 @@ ShowToc: false
 TocOpen: false
 ---
 
-## Pandas meets SQL
+## Pysql
 
 I was exploring data from a CSV, I used Jupyter notebook as I'm a bit familiar with it and it's a great fit for this kind of use case.  
 It's very easy to load data in a dataframe, however I don't use pandas often enough and cannot remember all the functions.  
