@@ -2,9 +2,9 @@
 author: "Nolan"
 title: "Pandas meets SQL"
 date: "2021-03-03"
-categories: ["python", "sql"]
+categories: ["python", "pysql"]
 draft: false
-description: "Exploring data with SQL"
+description: "Exploring data with SQL (pysql)"
 tags: ["data", "pandas"]
 ShowToc: false
 TocOpen: false
