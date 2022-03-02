@@ -53,7 +53,7 @@ I thought `main` was the first entry point in golang, looks like if a function i
 ```golang
 func init() {
 	fmt.Println("Executed before main")
-
+}
 ```
 
 ### Datatypes
