@@ -2,7 +2,7 @@
 author: "Nolan"
 title: "Sending a slow request"
 date: "2022-02-23"
-categories: ["golang", "learning"]
+categories: ["golang", "learning", "security"]
 draft: false
 description: "Sending a slow request in golang"
 tags: ["golang", "learning"]
