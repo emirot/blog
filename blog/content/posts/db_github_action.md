@@ -57,7 +57,7 @@ jobs:
 
 ### Adding MySQL in Github action
 
-I wanted to do the exact same for MySQL but it's even simplier mysql is already present, you just need to start it.
+I wanted to do the exact same for MySQL but it's even simpler because mysql is already present, you just need to start it.
 
 
 ```yaml
