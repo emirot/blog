@@ -1,7 +1,7 @@
 ---
 author: "Nolan"
 title: "Bulding GPG on Amazon linux from source"
-date: "2021-04-16"
+date: "2022-08-06"
 categories: ["amazonlinux", "gpg"]
 draft: false
 description: "Building GPG"
