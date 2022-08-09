@@ -4,9 +4,9 @@ jobs:
   build:
     name: Check for broken links
     runs-on: ubuntu-latest
-    container: golang:1.15-buster
+    container: golang:1.17-buster
     steps:
     - uses: actions/checkout@v2
     - run: |
-         GO111MODULE=on go get -u github.com/raviqqe/muffet/v2
+         GO111MODULE=on go get -u github.com/raviqqe/muffet@latest
          muffet -v https://blog.nolanemirot.com --exclude="(safari-pinned-tab|twitter|ko-fi|linkedin|reddit|telegram)" --buffer-size 9000
