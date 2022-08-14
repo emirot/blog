@@ -56,6 +56,17 @@ func init() {
 }
 ```
 
+### Alias
+
+Alias can be made like so:
+```golang
+
+var pl = fmt.Println
+
+pl("I print something")
+```
+
+
 ### Datatypes
 
 Not sure if I will get used to declaring types after variable name, well will see.  
