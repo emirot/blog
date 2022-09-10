@@ -10,10 +10,10 @@ ShowToc: false
 TocOpen: false
 ---
 
-## Embeded directive
+## Embed directive
 
-When building a binary, if you load config files, they won't be added to your binary automatically. (The `embeded` package was added in golang 1.16 before then some external libraries could be used). 
-You have to specifically tell the compiler to add them, by using `embeded`.
+When building a binary, if you load config files, they won't be added to your binary automatically. (The `embed` package was added in golang 1.16 before then some external libraries could be used). 
+You have to specifically tell the compiler to add them, by using `embed`.
 
 
 ```golang
