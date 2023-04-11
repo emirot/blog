@@ -15,7 +15,7 @@ TocOpen: false
 As we know, http requests can fail for a large variety of reasons, client side or server side (unauthorized, timeouts etc).  
 On the client side a common approach is to retry request by increasing the waiting time between retries.  
 
-After you have decided which approach to use, we will look into how to unit test that.
+Is this scenario be easily unit test?
 
 
 ## Unit Testing 
