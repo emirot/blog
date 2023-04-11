@@ -49,7 +49,7 @@ func TestMockHttpResponse(t *testing.T) {
     // First call returns 500
     resp, err := http.Get("http://example.com/") // return http 500
     // Second call returns 200
-
+}
 ```
 
 
