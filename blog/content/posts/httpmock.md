@@ -36,7 +36,7 @@ func TestMockHttpResponse(t *testing.T) {
 
 ```
 
-But there is more, we can acutally easily mock retries like this below:
+But there is more, we can actually easily mock retries like this below:
 
 ```golang
 func TestMockHttpResponse(t *testing.T) {
