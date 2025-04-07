@@ -1,5 +1,5 @@
 name: Go
-on: [push, pull_request]
+on: [push]
 jobs:
   build:
     name: Check for broken links
@@ -8,5 +8,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: |
-         go install github.com/raviqqe/muffet@latest
+         go install github.com/raviqqe/muffet@v1.5.7
          muffet -v https://blog.nolanemirot.com --exclude="(safari-pinned-tab|twitter|x|ko-fi|linkedin|reddit|telegram|facebook|ycombinator)" --buffer-size 9000
