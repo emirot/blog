@@ -9,4 +9,4 @@ jobs:
     - uses: actions/checkout@v2
     - run: |
          go install github.com/raviqqe/muffet@latest
-         muffet -v https://blog.nolanemirot.com --exclude="(safari-pinned-tab|twitter|ko-fi|linkedin|reddit|telegram)" --buffer-size 9000
+         muffet -v https://blog.nolanemirot.com --exclude="(safari-pinned-tab|twitter|ko-fi|linkedin|reddit|telegram|facebook|ycombinator)" --buffer-size 9000
