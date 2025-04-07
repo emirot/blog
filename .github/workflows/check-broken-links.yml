@@ -4,7 +4,7 @@ jobs:
   build:
     name: Check for broken links
     runs-on: ubuntu-latest
-    container: golang:1.23-buster
+    container: golang:1.23
     steps:
     - uses: actions/checkout@v2
     - run: |
