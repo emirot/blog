@@ -15,7 +15,7 @@ TocOpen: false
 Looking into dependency management in golang and I was quite surprised that it's possible to import multiple versions of the same library.
 
 However it only works for major version that are considered as a different module.
-Which must be specified when creating the [package](https://github.com/go-redis/redis/blob/v7.0.1/go.mod#L1)
+Which must be specified when creating the [package](https://github.com/go-redis/redis/blob/v7.0.1/go.mod) at line 1
 
 E.g
 
