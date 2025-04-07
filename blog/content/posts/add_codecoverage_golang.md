@@ -12,7 +12,7 @@ TocOpen: false
 
 ## Adding Golang code coverage badge in gitlab
 
-Currently there is no example in gitlab [official documentation](https://docs.gitlab.com/ee/user/project/merge_requests/test_coverage_visualization.html) regarding code coverage for golang.
+Currently there is no example in gitlab [official documentation](https://docs.gitlab.com/ci/testing/code_coverage/#configure-coverage-visualization) regarding code coverage for golang.
 
 However I found:
 
